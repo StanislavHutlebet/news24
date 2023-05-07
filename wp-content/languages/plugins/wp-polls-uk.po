@@ -1,0 +1,1297 @@
+# Translation of Plugins - WP-Polls - Stable (latest release) in Ukrainian
+# This file is distributed under the same license as the Plugins - WP-Polls - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-29 13:10:37+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: uk_UA\n"
+"Project-Id-Version: Plugins - WP-Polls - Stable (latest release)\n"
+
+#: polls-options.php:309
+msgid "Example: REMOTE_ADDR"
+msgstr "Приклад: REMOTE_ADDR"
+
+#: polls-options.php:308
+msgid "Header That Contains The IP:"
+msgstr "Заголовок, який містить IP:"
+
+#: polls-options.php:309
+msgid "You can leave it blank to use the default"
+msgstr "Ви можете залишити це поле порожнім, щоб використовувати значення за умовчанням"
+
+#: wp-polls.php:1364
+msgid "User is not allowed to vote for Poll ID #%s"
+msgstr "Користувачеві заборонено голосувати за ID опитування #%s"
+
+#: wp-polls.php:1368
+msgid "No answers given for Poll ID #%s"
+msgstr "Немає відповідей для ID опитування #%s"
+
+#: polls-logs.php:328
+msgid "Hashed IP / Host"
+msgstr "Хешований IP/хост"
+
+#: polls-templates.php:267
+msgid "Display the poll's mutiple answer percentage. This is total votes divided by total voters."
+msgstr "Відображати відсоток кількох відповідей в опитуваннях. Це загальна кількість голосів, поділена на загальну кількість виборців."
+
+#: wp-polls.php:1360
+msgid "Invalid Answer to Poll ID #%s"
+msgstr "Недійсна відповідь на опитування з ID #%s"
+
+#: wp-polls.php:1754
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: polls-options.php:382 polls-templates.php:499
+msgid "Save Changes"
+msgstr "Зберегти зміни"
+
+#: polls-manager.php:440
+msgid "Edit"
+msgstr "Редагувати"
+
+#: polls-manager.php:251 polls-manager.php:441
+msgid "Delete"
+msgstr "Видалити"
+
+#: polls-options.php:99 polls-templates.php:78
+msgid "Updated"
+msgstr "Оновлено"
+
+#: polls-logs.php:357
+msgid "No poll logs matches the filter."
+msgstr "Немає журналів опитування не відповідає фільтру."
+
+#: polls-logs.php:359 polls-logs.php:375
+msgid "No poll logs available for this poll."
+msgstr "Немає журналів опитування, доступних для цього опитування."
+
+#: polls-logs.php:366
+msgid "Delete Poll Logs"
+msgstr "Видалити журнали Опитування"
+
+#: wp-polls.php:1201
+msgid "&laquo;"
+msgstr "&laquo;"
+
+#: wp-polls.php:1211
+msgid "&raquo;"
+msgstr "&raquo;"
+
+#: wp-polls.php:1215
+msgid "Last &raquo;"
+msgstr "Остання &raquo;"
+
+#. Author URI of the plugin
+msgid "https://lesterchan.net"
+msgstr "https://lesterchan.net"
+
+#. Author of the plugin
+msgid "Lester 'GaMerZ' Chan"
+msgstr "Lester 'GaMerZ' Chan"
+
+#. Plugin URI of the plugin
+msgid "https://lesterchan.net/portfolio/programming/php/"
+msgstr "https://lesterchan.net/portfolio/programming/php/"
+
+#: polls-templates.php:109 polls-templates.php:112 wp-polls.php:1903
+#: wp-polls.php:1904
+msgid ","
+msgstr ","
+
+#: wp-polls.php:1886
+msgid "Bad"
+msgstr "Поганий"
+
+#: wp-polls.php:1765
+msgid "Poll To Display:"
+msgstr "Опитування для відображення:"
+
+#: wp-polls.php:1713
+msgid "WP-Polls polls"
+msgstr "Опитування WP-Polls"
+
+#. Plugin Name of the plugin
+#: wp-polls.php:1686 wp-polls.php:1688 wp-polls.php:1698
+msgid "WP-Polls"
+msgstr "WP-Опитування"
+
+#: wp-polls.php:234 wp-polls.php:1546
+msgid "Delete Poll Answer"
+msgstr "Видалити відповідь опитування"
+
+#: wp-polls.php:1557
+msgid "Poll Answer '%s' Deleted Successfully."
+msgstr "Відповідь опитування '%s' успішно видалена."
+
+#: wp-polls.php:1559
+msgid "Error In Deleting Poll Answer '%s'."
+msgstr "Помилка при видаленні відповіді опитування '%s'."
+
+#: polls-manager.php:347 wp-polls.php:235 wp-polls.php:1563
+msgid "Open Poll"
+msgstr "Відкрити опитування"
+
+#: wp-polls.php:1585
+msgid "Error Opening Poll '%s'"
+msgstr "Помилка при відкритті опитування '%s'"
+
+#: polls-manager.php:346 wp-polls.php:236 wp-polls.php:1589
+msgid "Close Poll"
+msgstr "Закрити опитування"
+
+#: wp-polls.php:1609
+msgid "Poll '%s' Is Now Closed"
+msgstr "Опитування '%s' закрите"
+
+#: wp-polls.php:1611
+msgid "Error Closing Poll '%s'"
+msgstr "Помилка при закритті опитування '%s'"
+
+#: wp-polls.php:228 wp-polls.php:1615
+msgid "Delete Poll"
+msgstr "Видалити опитування"
+
+#: wp-polls.php:1624
+msgid "Error In Deleting Poll '%s' Question"
+msgstr "Помилка при видалені теми опитування '%s'"
+
+#: wp-polls.php:1627
+msgid "Poll '%s' Deleted Successfully"
+msgstr "Опитування '%s' успішно видалене"
+
+#: polls-logs.php:350
+msgid "Total number of records that matches this filter: <strong>%s</strong>"
+msgstr "Загальна кількість записів, що відповідають цьому фільтру: <strong>%s</strong>"
+
+#: polls-logs.php:379 polls-manager.php:500
+msgid "Note: If your logging method is by IP and Cookie or by Cookie, users may still be unable to vote if they have voted before as the cookie is still stored in their computer."
+msgstr "Примітка: Якщо Ваш метод відстежування по IP та Cookie, користувачі не зможуть голосувати, якщо вони голосували раніше і Cookie ще зберігаються."
+
+#: polls-manager.php:19 polls-manager.php:217 polls-manager.php:336
+msgid "Edit Poll"
+msgstr "Редагувати опитування"
+
+#: polls-manager.php:105
+msgid "No Changes Had Been Made To Poll's Question '%s'."
+msgstr "Нічого не змінилося у темі опитування '%s'."
+
+#: polls-manager.php:137
+msgid "No Changes Had Been Made To Poll's Answer '%s'."
+msgstr "Нічого не змінилося у відповіді '%s'."
+
+#: polls-manager.php:139
+msgid "Poll's Answer '%s' Edited Successfully."
+msgstr "Відповівдь '%s' успішно змінено."
+
+#: polls-manager.php:170
+msgid "Poll's Answer '%s' Added Successfully."
+msgstr "Відповідь '%s' успішно додана."
+
+#: polls-manager.php:177
+msgid "Poll '%s' Edited Successfully."
+msgstr "Опитування '%s' успішно змінено."
+
+#: polls-manager.php:231
+msgid "Answer No."
+msgstr "Номер відповіді"
+
+#: polls-manager.php:232
+msgid "Answer Text"
+msgstr "Текст відповіді"
+
+#: polls-manager.php:233
+msgid "No. Of Votes"
+msgstr "Кількість голосів"
+
+#: polls-manager.php:242
+msgid "Null Votes"
+msgstr "Нема голосів"
+
+#: polls-manager.php:251
+msgid "You are about to delete this poll's answer '%s'."
+msgstr "Ви збираєтеся видалити відповідь '%s'."
+
+#: polls-manager.php:268 polls-manager.php:475
+msgid "Total Voters:"
+msgstr "Всього проголосувало:"
+
+#: polls-manager.php:308
+msgid "Edit Start Date/Time"
+msgstr "Змінити Дату/Час початку"
+
+#: polls-manager.php:317
+msgid "This Poll Will Not Expire"
+msgstr "Це опитування ніколи не закінчиться"
+
+#: polls-manager.php:367 wp-polls.php:52 wp-polls.php:1714 wp-polls.php:1748
+msgid "Polls"
+msgstr "Опитування"
+
+#: polls-manager.php:374 polls-templates.php:115 polls-templates.php:118
+#: wp-polls.php:1906 wp-polls.php:1909
+msgid "Total Voters"
+msgstr "Всього проголосувавших"
+
+#: polls-manager.php:396 wp-polls.php:440 wp-polls.php:582 wp-polls.php:1052
+msgid "No Expiry"
+msgstr "Безтерміново"
+
+#: polls-manager.php:449
+msgid "No Polls Found"
+msgstr "Опитування не знайдено"
+
+#: polls-manager.php:459
+msgid "Polls Stats:"
+msgstr "Статистика опитувань:"
+
+#: polls-manager.php:467
+msgid "Total Polls' Answers:"
+msgstr "Всього відповідей на опитування:"
+
+#: polls-options.php:85
+msgid "Number Of Polls Per Page To Display In Poll Archive Option"
+msgstr "Кількість опитування на сторінку в архівах опитування"
+
+#: polls-options.php:86
+msgid "Type Of Polls To Display In Poll Archive Option"
+msgstr "Тип опитувань для відображення в архіві опитувань"
+
+#: polls-options.php:90
+msgid "Poll Close Option"
+msgstr "Коли опитування закрите"
+
+#: polls-options.php:91 polls-options.php:289
+msgid "Logging Method"
+msgstr "Метод відслідковуваеея"
+
+#: polls-options.php:104 polls-templates.php:83
+msgid "No Poll Option Updated"
+msgstr "Жодні налаштування не було оновлено"
+
+#: polls-options.php:168
+msgid "Use CSS Style"
+msgstr "Використовувати стиль CSS"
+
+#: polls-options.php:201
+msgid "Polls AJAX Style"
+msgstr "AJAX стиль опитування"
+
+#: polls-options.php:204
+msgid "Show Loading Image With Text"
+msgstr "Показувати зображення завантаження із текстом"
+
+#: polls-options.php:213
+msgid "Show Fading In And Fading Out Of Poll"
+msgstr "Ефект появи і затухання на опитуванні"
+
+#: polls-options.php:224
+msgid "Sorting Of Poll Answers"
+msgstr "Сортування відповідей опитування"
+
+#: polls-options.php:227
+msgid "Sort Poll Answers By:"
+msgstr "Сортувати відповіді опитування за:"
+
+#: polls-options.php:231 polls-options.php:256
+msgid "Exact Order"
+msgstr "Точним порядком"
+
+#: polls-options.php:232 polls-options.php:257
+msgid "Alphabetical Order"
+msgstr "Алфавітним порядком"
+
+#: polls-options.php:238
+msgid "Sort Order Of Poll Answers:"
+msgstr "Порядок сортування відповідей опитування:"
+
+#: polls-options.php:249
+msgid "Sorting Of Poll Results"
+msgstr "Сортування результатів опитування"
+
+#: polls-options.php:252
+msgid "Sort Poll Results By:"
+msgstr "Сортувати результати опитування за:"
+
+#: polls-options.php:263
+msgid "Sort Order Of Poll Results:"
+msgstr "Порядок сортування результатів опитування:"
+
+#: polls-options.php:274
+msgid "Allow To Vote"
+msgstr "Кому дозволено голосувати"
+
+#: polls-options.php:277
+msgid "Who Is Allowed To Vote?"
+msgstr "Кому дозволено голосувати?"
+
+#: polls-options.php:280
+msgid "Guests Only"
+msgstr "Лише гостям"
+
+#: polls-options.php:281
+msgid "Registered Users Only"
+msgstr "Лише зареєстрованим користувачам"
+
+#: polls-options.php:282
+msgid "Registered Users And Guests"
+msgstr "Зареєстрованим користувачам і гостям"
+
+#: polls-options.php:292
+msgid "Poll Logging Method:"
+msgstr "Метод відслідковування опитувань:"
+
+#: polls-options.php:304
+msgid "Expiry Time For Cookie And Log:"
+msgstr "Час життя для cookie та лоґів:"
+
+#: polls-options.php:305
+msgid "seconds (0 to disable)"
+msgstr "секунд (0 щоб відключити)"
+
+#: polls-options.php:314
+msgid "Poll Archive"
+msgstr "Архів опитувань"
+
+#: polls-options.php:317
+msgid "Number Of Polls Per Page:"
+msgstr "Кількість опитувань на сторінку:"
+
+#: polls-options.php:321
+msgid "Type Of Polls To Display In Poll Archive:"
+msgstr "Тип опитувань для відображення в архіві:"
+
+#: polls-options.php:324
+msgid "Closed Polls Only"
+msgstr "Лише закриті опитування"
+
+#: polls-options.php:325
+msgid "Opened Polls Only"
+msgstr "Лише відкриті опитування"
+
+#: polls-options.php:326
+msgid "Closed And Opened Polls"
+msgstr "Закриті і відкриті опитування"
+
+#: polls-options.php:331
+msgid "Poll Archive URL:"
+msgstr "URL архіву опитувань:"
+
+#: polls-options.php:336
+msgid "Only polls' results will be shown in the Poll Archive regardless of whether the poll is closed or opened."
+msgstr "Лише результати опитування будуть показуватися в архіві опитувань незалежно від того, закрите опитування або відкрите."
+
+#: polls-options.php:341 polls-options.php:344
+msgid "Current Active Poll"
+msgstr "Поточне активне опитування"
+
+#: polls-options.php:347 wp-polls.php:1767
+msgid "Do NOT Display Poll (Disable)"
+msgstr "НЕ показувати опитування (відключити)"
+
+#: polls-options.php:348 wp-polls.php:1768
+msgid "Display Random Poll"
+msgstr "Показувати випадкове опитування"
+
+#: polls-options.php:349 wp-polls.php:1769
+msgid "Display Latest Poll"
+msgstr "Показувати останнє опитування"
+
+#: polls-options.php:372
+msgid "Display Poll's Results"
+msgstr "Показувати результати опитування"
+
+#: polls-options.php:373
+msgid "Display Disabled Poll's Voting Form"
+msgstr "Показувати відключену форму для голосування"
+
+#: polls-options.php:374
+msgid "Do Not Display Poll In Post/Sidebar"
+msgstr "Не показувати опитування у публікації/сайдбарі"
+
+#: polls-templates.php:59
+msgid "Voting Form Header Template"
+msgstr "Шаблон заголовку форми опитування "
+
+#: polls-templates.php:60
+msgid "Voting Form Body Template"
+msgstr "Шаблон тіла форми опитування"
+
+#: polls-templates.php:61
+msgid "Voting Form Footer Template"
+msgstr "Шаблон нижньої частини форми опитування"
+
+#: polls-templates.php:62
+msgid "Result Header Template"
+msgstr "Шаблон заголовку результату"
+
+#: polls-templates.php:63
+msgid "Result Body Template"
+msgstr "Шаблон тіла результатау"
+
+#: polls-templates.php:64
+msgid "Result Body2 Template"
+msgstr "Шаблон тіла2 результату"
+
+#: polls-templates.php:65
+msgid "Result Footer Template"
+msgstr "Шаблон нижньої частини результату"
+
+#: polls-templates.php:66
+msgid "Result Footer2 Template"
+msgstr "Шаблон нижньої частини2 результату"
+
+#: polls-templates.php:67
+msgid "Poll Archive Link Template"
+msgstr "Шаблон посилання н архів опитувань"
+
+#: polls-templates.php:69
+msgid "Poll Archive Poll Footer Template"
+msgstr "Шаблон нижньої частини опитувань"
+
+#: polls-templates.php:71
+msgid "Poll Archive Paging Footer Template"
+msgstr "Шаблон нижньої чатини архіву опитувань"
+
+#: polls-templates.php:72
+msgid "Poll Disabled Template"
+msgstr "Шаблон відключеного опитування"
+
+#: polls-templates.php:73
+msgid "Poll Error Template"
+msgstr "Шаблон помилки опитування"
+
+#: polls-templates.php:103 polls-templates.php:118 wp-polls.php:1897
+#: wp-polls.php:1910
+msgid "Vote"
+msgstr "Голос"
+
+#: polls-templates.php:103 wp-polls.php:1898
+msgid "View Results Of This Poll"
+msgstr "Переглянути результати цього опитування"
+
+#: polls-templates.php:103 wp-polls.php:1898
+msgid "View Results"
+msgstr "Переглянути результати"
+
+#: polls-templates.php:118 wp-polls.php:1910
+msgid "Vote For This Poll"
+msgstr "Приняти участь в опитуванні"
+
+#: polls-templates.php:121 wp-polls.php:1933
+msgid "Polls Archive"
+msgstr "Архиів опитуваннь"
+
+#: polls-templates.php:127 wp-polls.php:1937
+msgid "Start Date:"
+msgstr "Дата початку:"
+
+#: polls-templates.php:136 wp-polls.php:1912
+msgid "Sorry, there are no polls available at the moment."
+msgstr "Вибачте, на даний момент немає активних опитувань."
+
+#: polls-templates.php:139 wp-polls.php:1913
+msgid "An error has occurred when processing your poll."
+msgstr "Виникла помилка при обробці опитування."
+
+#: polls-templates.php:152
+msgid "Template Variables"
+msgstr "Змінні шаблонів"
+
+#: polls-templates.php:157
+msgid "Display the poll's ID"
+msgstr "Показує ID опитування"
+
+#: polls-templates.php:161
+msgid "Display the poll's answer ID"
+msgstr "Показує ID відповіді опитування"
+
+#: polls-templates.php:167
+msgid "Display the poll's question"
+msgstr "Показує тему опитування"
+
+#: polls-templates.php:171
+msgid "Display the poll's answer"
+msgstr "Показує відповідь опитування"
+
+#: polls-templates.php:177
+msgid "Display the poll's total votes NOT the number of people who voted for the poll"
+msgstr "Показує загальну кількість голосів, НЕ кількість осіб, що проголосували"
+
+#: polls-templates.php:181
+msgid "Display the poll's answer without HTML formatting."
+msgstr "Показує відповідь опитування без HTML форматування."
+
+#: polls-templates.php:187
+msgid "Displays URL to poll's result"
+msgstr "Показує URL на результат опитування"
+
+#: polls-templates.php:191
+msgid "Display the poll's answer votes"
+msgstr "Показывает сколько голосов было на ответ опросаПоказує скільки голосів було на відповідь опитування"
+
+#: polls-templates.php:197
+msgid "Display the poll's most voted answer"
+msgstr "Показує відповідь, за яку було найбільше голосів"
+
+#: polls-templates.php:201
+msgid "Display the poll's answer percentage"
+msgstr "Показує відсоток відповіді опитування"
+
+#: polls-templates.php:207
+msgid "Display the poll's answer votes for the most voted answer"
+msgstr "Показує кількість голосів відданих за найпопулярніший варіант відповіді"
+
+#: polls-templates.php:217
+msgid "Display the poll's answer percentage for the most voted answer"
+msgstr "Показує відсоток голосів відданих за найпопулярніший варіант відповіді"
+
+#: polls-templates.php:221
+msgid "Display the poll's least voted answer"
+msgstr "Показує найнепопулярніший варіант відповіді"
+
+#: polls-templates.php:227
+msgid "Display the poll's start date/time"
+msgstr "Показує дату/час початку опитування"
+
+#: polls-templates.php:237
+msgid "Display the poll's end date/time"
+msgstr "Показує дату/час закінчення опитування"
+
+#: polls-templates.php:241
+msgid "Display the poll's answer percentage for the least voted answer"
+msgstr "Показує відсоток голосів за найнепопулярніший варіант опитування"
+
+#: polls-templates.php:247
+msgid "Display the the maximum number of answers the user can choose if the poll supports multiple answers"
+msgstr "Показує максимальну кількість відповідей, які користувач може обрати, якщо опитування підтримує багатократні відповіді"
+
+#: polls-templates.php:251
+msgid "Display \"checkbox\" or \"radio\" input types depending on the poll type"
+msgstr "Показывает тип ввода \"checkbox\" или \"radio\", в зависимости от типа опросаПоказує тип вводу \"checkbox\" або \"radio\", залежно від типу опитування"
+
+#: polls-templates.php:257
+msgid "Display the number of people who voted for the poll NOT the total votes of the poll"
+msgstr "Показує загальну кількість людей, що приймали участь в голосуванні, НЕ загальну кількість голосів в опитуванні"
+
+#: polls-templates.php:261
+msgid "Display the poll archive URL"
+msgstr "Показує URL на архів опитувань"
+
+#: polls-templates.php:275
+msgid "Note: <strong>%POLL_TOTALVOTES%</strong> and <strong>%POLL_TOTALVOTERS%</strong> will be different if your poll supports multiple answers. If your poll allows only single answer, both value will be the same."
+msgstr "Примітка: <strong>%POLL_TOTALVOTES%</strong> та <strong>%POLL_TOTALVOTERS%</strong> будуть різними, якщо опитування підтримує багатократні відповіді. В протилежноиу випадку два варіанти будуть однакові."
+
+#: polls-templates.php:281
+msgid "Poll Voting Form Templates"
+msgstr "Шаблони форми для опитування"
+
+#: polls-templates.php:285
+msgid "Voting Form Header:"
+msgstr "Заголовок форми опитування:"
+
+#: polls-templates.php:286 polls-templates.php:301 polls-templates.php:314
+#: polls-templates.php:330 polls-templates.php:345 polls-templates.php:361
+#: polls-templates.php:377 polls-templates.php:397 polls-templates.php:422
+#: polls-templates.php:431 polls-templates.php:440 polls-templates.php:459
+#: polls-templates.php:468 polls-templates.php:482 polls-templates.php:491
+msgid "Allowed Variables:"
+msgstr "Доступні змінні:"
+
+#: polls-templates.php:294 polls-templates.php:307 polls-templates.php:318
+#: polls-templates.php:338 polls-templates.php:354 polls-templates.php:370
+#: polls-templates.php:390 polls-templates.php:410 polls-templates.php:424
+#: polls-templates.php:433 polls-templates.php:452 polls-templates.php:461
+#: polls-templates.php:470 polls-templates.php:484 polls-templates.php:493
+msgid "Restore Default Template"
+msgstr "Відновити шаблон 'за замовчуванням'"
+
+#: polls-templates.php:300
+msgid "Voting Form Body:"
+msgstr "Тіло форми опитування:"
+
+#: polls-templates.php:313
+msgid "Voting Form Footer:"
+msgstr "Нижня частина форми опитування:"
+
+#: polls-templates.php:325
+msgid "Poll Result Templates"
+msgstr "Шаблони результатів опитування"
+
+#: polls-templates.php:329
+msgid "Result Header:"
+msgstr "Заголовок результатів:"
+
+#: polls-templates.php:344 polls-templates.php:360
+msgid "Result Body:"
+msgstr "Тіло результатів:"
+
+#: polls-templates.php:344 polls-templates.php:396
+msgid "Displayed When The User HAS NOT Voted"
+msgstr "Відображається коли відвідувач ще НЕ ГОЛОСУВАВ"
+
+#: polls-templates.php:360 polls-templates.php:376
+msgid "Displayed When The User HAS Voted"
+msgstr "Відображається коли відвідувач вже ПРОГОЛОСУВАВ"
+
+#: polls-templates.php:376 polls-templates.php:396
+msgid "Result Footer:"
+msgstr "Нижня частина результатів:"
+
+#: polls-templates.php:417
+msgid "Poll Archive Templates"
+msgstr "Шаблони архіву опитувань"
+
+#: polls-templates.php:421
+msgid "Poll Archive Link"
+msgstr "Посилання на архів опитувань"
+
+#: polls-templates.php:421
+msgid "Template For Displaying Poll Archive Link"
+msgstr "Шаблон для відображення посилання на архів опитувань"
+
+#: polls-templates.php:430
+msgid "Individual Poll Header"
+msgstr "Індивідуальний заголовок опитування"
+
+#: polls-templates.php:430
+msgid "Displayed Before Each Poll In The Poll Archive"
+msgstr "Відображається перед кожним опитуванням в архіві опитувань"
+
+#: polls-templates.php:439
+msgid "Individual Poll Footer"
+msgstr "Індивідуальна нижня частина опитування"
+
+#: polls-templates.php:439
+msgid "Displayed After Each Poll In The Poll Archive"
+msgstr "Відображається після кожного опитування в архіві опитувань"
+
+#: polls-templates.php:458
+msgid "Paging Header"
+msgstr "Заголовок строрінок"
+
+#: polls-templates.php:458
+msgid "Displayed Before Paging In The Poll Archive"
+msgstr "Відображається перед сторінками в архіві опитувань"
+
+#: polls-templates.php:467
+msgid "Paging Footer"
+msgstr "Нижня частина сторінки"
+
+#: polls-templates.php:467
+msgid "Displayed After Paging In The Poll Archive"
+msgstr "Відображається після кожної сторінки в архіві опитувань"
+
+#: polls-templates.php:477
+msgid "Poll Misc Templates"
+msgstr "Інші шаблони опитування"
+
+#: polls-templates.php:481
+msgid "Poll Disabled"
+msgstr "Опитування вимкнено"
+
+#: polls-templates.php:481
+msgid "Displayed When The Poll Is Disabled"
+msgstr "Відображається при вимкненому опитуванні"
+
+#: polls-templates.php:490
+msgid "Poll Error"
+msgstr "Помилка опитування"
+
+#: polls-templates.php:490
+msgid "Displayed When An Error Has Occured While Processing The Poll"
+msgstr "Відображається при помилці обробки опитування"
+
+#: wp-polls.php:209
+msgid "Your last request is still being processed. Please wait a while ..."
+msgstr "Ваш останній запит ще досі обробляється. Зачекайте ..."
+
+#: wp-polls.php:210
+msgid "Please choose a valid poll answer."
+msgstr "Будь ласка, коректно виберіть опитування."
+
+#: wp-polls.php:231
+msgid "Please check the \\'Yes\\' checkbox if you want to delete all logs."
+msgstr "Будь ласка, поставте галочку \\'Так\\' якщо бажаєте очистити всі логи."
+
+#: wp-polls.php:233
+msgid "Please check the \\'Yes\\' checkbox if you want to delete all logs for this poll ONLY."
+msgstr "Будь ласка, поставте галочку \\'Так\\' якщо бажаєте очистити логи ЛИШЕ цього опитування."
+
+#: wp-polls.php:253 wp-polls.php:290
+msgid "Enter Poll ID"
+msgstr "Введіть ID опитування"
+
+#: wp-polls.php:255 wp-polls.php:291
+msgid "Error: Poll ID must be numeric"
+msgstr "Помилка: ID опитування має бути числом"
+
+#: wp-polls.php:255 wp-polls.php:292
+msgid "Please enter Poll ID again"
+msgstr "Будь ласка, введіть ID опитування ще раз"
+
+#: wp-polls.php:252
+msgid "Poll"
+msgstr "Опитування"
+
+#: wp-polls.php:293
+msgid "Insert Poll"
+msgstr "Вставити опитування"
+
+#: wp-polls.php:1421
+msgid "Unable To Update Poll Total Votes And Poll Total Voters. Poll ID #%s"
+msgstr "Неможливо оновити загальну кількість голосіві проголосувавших. ID опитування #%s"
+
+#: wp-polls.php:1383
+msgid "You Had Already Voted For This Poll. Poll ID #%s"
+msgstr "Ви вже голосували в даному опитуванні. ID опитування #%s"
+
+#: wp-polls.php:1372
+msgid "Invalid Poll ID. Poll ID #%s"
+msgstr "Недопустимий ID опитування. ID опитування #%s"
+
+#: wp-polls.php:1700
+msgid "<strong>%s</strong> poll was created."
+msgid_plural "<strong>%s</strong> polls were created."
+msgstr[0] "Було створено <strong>%s</strong> опитування."
+msgstr[1] "Було створено <strong>%s</strong> опитування."
+msgstr[2] "Було створено <strong>%s</strong> опитувань."
+
+#: wp-polls.php:1701
+msgid "<strong>%s</strong> polls' answer was given."
+msgid_plural "<strong>%s</strong> polls' answers were given."
+msgstr[0] "Отримано <strong>%s</strong> відповідь."
+msgstr[1] "Отримано <strong>%s</strong> відповіді."
+msgstr[2] "Отримано <strong>%s</strong> відповідей."
+
+#: wp-polls.php:1885
+msgid "Excellent"
+msgstr "Неперевершений"
+
+#: wp-polls.php:1887
+msgid "Can Be Improved"
+msgstr "Міг бути краще"
+
+#: wp-polls.php:1881
+msgid "How Is My Site?"
+msgstr "Як вам мій сайт?"
+
+#: wp-polls.php:1757
+msgid "Display Polls Archive Link Below Poll?"
+msgstr "Відображати посилання на архів під опитуванням?"
+
+#: wp-polls.php:1197
+msgid "&laquo; First"
+msgstr "&laquo; Перша"
+
+#: wp-polls.php:532 wp-polls.php:726
+msgid "Loading"
+msgstr "Завантажується"
+
+#: polls-templates.php:432 polls-templates.php:460 polls-templates.php:469
+#: polls-templates.php:483 polls-templates.php:492
+msgid "N/A"
+msgstr "Невідомо"
+
+#: polls-templates.php:127 wp-polls.php:1937
+msgid "End Date:"
+msgstr "Кінцева дата:"
+
+#: polls-options.php:242 polls-options.php:267
+msgid "Descending"
+msgstr "Низхідний"
+
+#: polls-options.php:241 polls-options.php:266
+msgid "Ascending"
+msgstr "Висхідний"
+
+#: polls-options.php:233 polls-options.php:258
+msgid "Random Order"
+msgstr "Випадковий порядок"
+
+#: polls-manager.php:439
+msgid "Logs"
+msgstr "Журнали"
+
+#: polls-manager.php:434
+msgid "Future"
+msgstr "Майбутнє"
+
+#: polls-manager.php:432
+msgid "Open"
+msgstr "Відкрити"
+
+#: polls-manager.php:378
+msgid "Action"
+msgstr "Дія"
+
+#: wp-polls.php:1888
+msgid "No Comments"
+msgstr "Коментарів немає"
+
+#: polls-manager.php:377
+msgid "Status"
+msgstr "Статус"
+
+#: wp-polls.php:1884
+msgid "Good"
+msgstr "Добре"
+
+#: polls-manager.php:372
+msgid "ID"
+msgstr "ID"
+
+#: polls-options.php:335
+msgid "Note"
+msgstr "Нотатка"
+
+#: polls-manager.php:436
+msgid "Closed"
+msgstr "Зачинено"
+
+#: wp-polls.php:799
+msgid "Note: There is a poll embedded within this post, please visit the site to participate in this post's poll."
+msgstr "Примітка. У цей запис вбудовано опитування. Відвідайте сайт, щоб взяти участь в опитуванні ції запису."
+
+#: wp-polls.php:1195
+msgid "Page %s of %s"
+msgstr "Сторінка %s з %s"
+
+#: wp-polls.php:1472
+msgid "Invalid Poll ID"
+msgstr "Недійсний ID опитування"
+
+#: wp-polls.php:1525
+msgid "All Polls Logs Have Been Deleted."
+msgstr "Усі журнали опитувань видалено."
+
+#: wp-polls.php:1539
+msgid "All Logs For '%s' Has Been Deleted."
+msgstr "Усі журнали для «%s» видалено."
+
+#: wp-polls.php:1583
+msgid "Poll '%s' Is Now Opened"
+msgstr "Опитування \"%s\" зараз відкрито"
+
+#: polls-logs.php:370
+msgid "Are You Sure You Want To Delete Logs For This Poll Only?"
+msgstr "Ви впевнені, що бажаєте видалити журнали лише для цього опитування?"
+
+#: polls-logs.php:372 wp-polls.php:232 wp-polls.php:1532
+msgid "Delete Logs For This Poll Only"
+msgstr "Видалити журнали лише для цього опитування"
+
+#: polls-logs.php:372
+msgid "You are about to delete poll logs for this poll '%s' ONLY. This action is not reversible."
+msgstr "Ви збираєтеся видалити журнали опитувань ЛИШЕ для цього опитування «%s». Цю дію не можна відмінити."
+
+#: polls-manager.php:484
+msgid "Polls Logs"
+msgstr "Журнали опитувань"
+
+#: polls-manager.php:491
+msgid "Are You Sure You Want To Delete All Polls Logs?"
+msgstr "Ви впевнені, що бажаєте видалити всі журнали опитувань?"
+
+#: polls-manager.php:493 wp-polls.php:230 wp-polls.php:1520
+msgid "Delete All Logs"
+msgstr "Видалити всі журнали"
+
+#: polls-manager.php:493
+msgid "You are about to delete all poll logs. This action is not reversible."
+msgstr "Ви збираєтеся видалити всі журнали опитувань. Цю дію не можна відмінити."
+
+#: polls-manager.php:496 wp-polls.php:229
+msgid "No poll logs available."
+msgstr "Немає журналів опитувань."
+
+#: polls-options.php:92
+msgid "Cookie And Log Expiry Option"
+msgstr "Параметр терміну дії файлів cookie та журналу"
+
+#: polls-options.php:93
+msgid "Allow To Vote Option"
+msgstr "Опція «Дозволити голосувати»"
+
+#: wp-polls.php:1478
+msgid "Failed To Verify Referrer"
+msgstr "Не вдалося перевірити джерело переходу"
+
+#: wp-polls.php:1378
+msgid "Poll ID #%s is closed"
+msgstr "ID опитування #%s закрито"
+
+#: polls-manager.php:143
+msgid "Invalid Poll '%s'."
+msgstr "Неприпустиме опитування '%s'."
+
+#: polls-manager.php:263
+msgid "Total Votes:"
+msgstr "Всього голосуючих:"
+
+#: polls-manager.php:366 wp-polls.php:54
+msgid "Manage Polls"
+msgstr "Управління опитуваннями"
+
+#: polls-manager.php:419 polls-manager.php:423
+msgid "Displayed:"
+msgstr "Відображається:"
+
+#: polls-manager.php:441
+msgid "You are about to delete this poll, '%s'."
+msgstr "Ви збираєтеся видалити це опитування, \"%s\"."
+
+#: polls-manager.php:463
+msgid "Total Polls:"
+msgstr "Всього опитувань:"
+
+#: polls-manager.php:471
+msgid "Total Votes Cast:"
+msgstr "Усього поданих голосів:"
+
+#: polls-manager.php:346
+msgid "You are about to CLOSE this poll '%s'."
+msgstr "Ви хочете ЗАКРИТИ опитування '%s'."
+
+#: polls-manager.php:347
+msgid "You are about to OPEN this poll '%s'."
+msgstr "Ви хочете ВІДКРИТИ ОПИТУВАННЯ '%s'."
+
+#: polls-options.php:79 polls-options.php:145 polls-options.php:148
+msgid "Poll Bar Style"
+msgstr "Стиль панелі опитування"
+
+#: polls-options.php:80
+msgid "Poll AJAX Style"
+msgstr "Опитування AJAX Style"
+
+#: polls-options.php:81
+msgid "Sort Poll Answers By Option"
+msgstr "Сортувати відповіді на опитування за варіантом"
+
+#: polls-options.php:82
+msgid "Sort Order Of Poll Answers Option"
+msgstr "Параметр сортування відповідей на опитування"
+
+#: polls-options.php:83
+msgid "Sort Poll Results By Option"
+msgstr "Сортувати результати опитування за параметром"
+
+#: polls-options.php:84
+msgid "Sort Order Of Poll Results Option"
+msgstr "Параметр сортування результатів опитування"
+
+#: polls-options.php:87
+msgid "Poll Archive URL Option"
+msgstr "Параметр URL-адреси архіву опитування"
+
+#: polls-options.php:88
+msgid "Show Poll Achive Link Option"
+msgstr "Показати параметр посилання на архів опитування"
+
+#: polls-options.php:89
+msgid "Current Active Poll Option"
+msgstr "Поточний активний варіант опитування"
+
+#: polls-options.php:94 polls-options.php:143 wp-polls.php:56
+msgid "Poll Options"
+msgstr "Опції опитування"
+
+#: polls-options.php:172
+msgid "Poll Bar Background"
+msgstr "Фон панелі опитування"
+
+#: polls-options.php:177
+msgid "Poll Bar Border"
+msgstr "Межа панелі опитування"
+
+#: polls-options.php:182
+msgid "Poll Bar Height"
+msgstr "Висота панелі опитування"
+
+#: polls-options.php:186
+msgid "Your poll bar will look like this"
+msgstr "Панель опитування виглядатиме так"
+
+#: polls-options.php:230 polls-options.php:255
+msgid "Votes Cast"
+msgstr "Віддані голоси"
+
+#: polls-options.php:296
+msgid "Logged By Cookie"
+msgstr "Зареєстровано файлом cookie"
+
+#: polls-options.php:297
+msgid "Logged By IP"
+msgstr "Зареєстровано за IP"
+
+#: polls-options.php:298
+msgid "Logged By Cookie And IP"
+msgstr "Зареєстровано за файлами cookie та IP"
+
+#: polls-options.php:299
+msgid "Logged By Username"
+msgstr "Зареєстровано за іменем користувача"
+
+#: polls-options.php:369
+msgid "When Poll Is Closed"
+msgstr "Коли опитування закрито"
+
+#: polls-templates.php:70
+msgid "Poll Archive Paging Header Template"
+msgstr "Шаблон заголовка сторінки архіву опитування"
+
+#: polls-templates.php:68
+msgid "Poll Archive Poll Header Template"
+msgstr "Шаблон заголовка архіву опитування"
+
+#: polls-templates.php:109 polls-templates.php:112 wp-polls.php:1903
+#: wp-polls.php:1904
+msgid "Votes"
+msgstr "Голоси"
+
+#: polls-templates.php:112 wp-polls.php:1904
+msgid "You Have Voted For This Choice"
+msgstr "Ви проголосували за цей вибір"
+
+#: polls-templates.php:150 wp-polls.php:57
+msgid "Poll Templates"
+msgstr "Шаблони опитувань"
+
+#: polls-templates.php:211
+msgid "Display the poll's answer image width"
+msgstr "Відображення ширини зображення відповіді на опитування"
+
+#: polls-templates.php:231
+msgid "Display the poll's answer votes for the least voted answer"
+msgstr "Відображати голоси відповідей опитування для відповіді, за яку проголосували найменше"
+
+#: wp-polls.php:211
+msgid "Maximum number of choices allowed: "
+msgstr "Макс. допустима кількість варіантів: "
+
+#. Description of the plugin
+msgid "Adds an AJAX poll system to your WordPress blog. You can easily include a poll into your WordPress's blog post/page. WP-Polls is extremely customizable via templates and css styles and there are tons of options for you to choose to ensure that WP-Polls runs the way you wanted. It now supports multiple selection of answers."
+msgstr "Додає систему опитування AJAX до вашого блогу WordPress. Ви можете легко додати опитування до публікації чи сторінки свого блогу WordPress. WP-Polls надзвичайно легко налаштовується за допомогою шаблонів і стилів CSS, і ви можете вибрати безліч варіантів, щоб переконатися, що WP-Polls працює так, як ви хочете. Тепер він підтримує кілька варіантів відповідей."
+
+#: polls-logs.php:279 polls-logs.php:329
+msgid "Date"
+msgstr "Дата"
+
+#: polls-add.php:163 wp-polls.php:238
+msgid "Remove"
+msgstr "Видалити"
+
+#: polls-add.php:83
+msgid "Error In Adding Poll '%s'."
+msgstr "Помилка при додаванні опитування '%s'."
+
+#: polls-add.php:105 polls-manager.php:168
+msgid "Error In Adding Poll's Answer '%s'."
+msgstr "Помилка при додаванні відповіді '%s для опитування'."
+
+#: polls-logs.php:276 polls-logs.php:322 wp-polls.php:237
+msgid "Answer"
+msgstr "Відповідь"
+
+#: polls-add.php:142 polls-manager.php:219
+msgid "Poll Question"
+msgstr "Тема опитування"
+
+#: polls-add.php:150 polls-manager.php:227
+msgid "Poll Answers"
+msgstr "Варіанти відповідей"
+
+#: polls-add.php:155 polls-manager.php:262
+msgid "Add Answer"
+msgstr "Додати відповідь"
+
+#: polls-add.php:162 polls-manager.php:249
+msgid "Answer %s"
+msgstr "Відповідь %s"
+
+#: polls-add.php:196 polls-manager.php:302
+msgid "Poll Start/End Date"
+msgstr "Дати початку/закінчення опитування"
+
+#: polls-add.php:199 polls-manager.php:305 polls-manager.php:375
+msgid "Start Date/Time"
+msgstr "Дата/час початку опитування"
+
+#: polls-add.php:203 polls-manager.php:313 polls-manager.php:376
+msgid "End Date/Time"
+msgstr "Дата/час завершення опитування"
+
+#: polls-add.php:204 polls-manager.php:324
+msgid "Do NOT Expire This Poll"
+msgstr " НЕ ЗАКІНЧУВАТИ це опитування"
+
+#: polls-logs.php:16 polls-logs.php:17 polls-logs.php:21 polls-logs.php:56
+#: polls-logs.php:60 polls-logs.php:93 polls-logs.php:96 wp-polls.php:1391
+msgid "Guest"
+msgstr "Гість"
+
+#: polls-logs.php:117
+msgid "There are a total of <strong>%s</strong> recorded vote for this poll."
+msgid_plural "There are a total of <strong>%s</strong> recorded votes for this poll."
+msgstr[0] "У цьому опитуванні участвувала <strong>%s</strong> особа."
+msgstr[1] "У цьому опитуванні участвувало <strong>%s</strong> особи."
+msgstr[2] "У цьому опитуванні участвувало <strong>%s</strong> осіб."
+
+#: polls-logs.php:155 polls-logs.php:203
+msgid "Voters To EXCLUDE"
+msgstr "ВИКЛЮЧИТИ голосувавших"
+
+#: polls-logs.php:157 polls-logs.php:205
+msgid "Registered Users"
+msgstr "Зареєстрованих користувачів"
+
+#: polls-logs.php:175
+msgid "Display Users That Voted For"
+msgstr "Показати користувачів, які проголосували"
+
+#: polls-logs.php:178
+msgid "More Than"
+msgstr "Більше ніж"
+
+#: polls-logs.php:179
+msgid "More Than Or Exactly"
+msgstr "Більше ніж або точно"
+
+#: polls-logs.php:180
+msgid "Exactly"
+msgstr "Точно"
+
+#: polls-logs.php:181
+msgid "Less Than Or Exactly"
+msgstr "Менш ніж або точно"
+
+#: polls-logs.php:182
+msgid "Less Than"
+msgstr "Менше ніж"
+
+#: polls-logs.php:189
+msgid "1 Answer"
+msgstr "1 відповідь"
+
+#: polls-logs.php:192 polls-logs.php:194
+msgid "%s Answer"
+msgid_plural "%s Answers"
+msgstr[0] "%s відповіль"
+msgstr[1] "%s відповіді"
+msgstr[2] "%s відповідей"
+
+#: polls-logs.php:207
+msgid "Guests will automatically be excluded"
+msgstr "Гості будуть автоматично виключені"
+
+#: polls-logs.php:254
+msgid "Clear Filter"
+msgstr "Очистити фільтр"
+
+#: polls-logs.php:326
+msgid "No."
+msgstr "№"
+
+#: polls-logs.php:278
+msgid "Host"
+msgstr "Хост"
+
+#: polls-logs.php:277
+msgid "IP"
+msgstr "IP"
+
+#: polls-logs.php:163 polls-logs.php:211 polls-logs.php:246
+msgid "Filter"
+msgstr "Фільтр"
+
+#: polls-logs.php:159
+msgid "Guests"
+msgstr "Гості"
+
+#: polls-add.php:145 polls-manager.php:222 polls-manager.php:373
+msgid "Question"
+msgstr "Питання"
+
+#: polls-logs.php:286 polls-logs.php:316 polls-manager.php:307
+#: polls-manager.php:319 polls-manager.php:390 polls-manager.php:398
+#: wp-polls.php:437 wp-polls.php:442 wp-polls.php:579 wp-polls.php:584
+#: wp-polls.php:1050 wp-polls.php:1054
+msgid "%s @ %s"
+msgstr "%s @ %s"
+
+#: polls-add.php:207 polls-manager.php:348
+msgid "Cancel"
+msgstr "Скасувати"
+
+#: polls-logs.php:296 polls-logs.php:327
+msgid "User"
+msgstr "Користувач"
+
+#: polls-add.php:178 polls-logs.php:371 polls-manager.php:280
+#: polls-manager.php:492 polls-options.php:208 polls-options.php:217
+#: wp-polls.php:1760
+msgid "Yes"
+msgstr "Так"
+
+#: polls-add.php:177 polls-manager.php:279 polls-options.php:207
+#: polls-options.php:216 wp-polls.php:1759
+msgid "No"
+msgstr "Ні"
+
+#: polls-logs.php:125
+msgid "Filter Poll's Logs"
+msgstr "Фільтрувати журнали опитувань"
+
+#: polls-logs.php:158 polls-logs.php:206
+msgid "Comment Authors"
+msgstr "Автори коментарів"
+
+#: polls-logs.php:228
+msgid "Display What This User Has Voted"
+msgstr "Показати, за що проголосував цей користувач"
+
+#: polls-logs.php:261
+msgid "Poll Logs"
+msgstr "Журнали опитувань"
+
+#: polls-add.php:16 polls-add.php:140 polls-add.php:207 wp-polls.php:55
+msgid "Add Poll"
+msgstr "Додати опитування"
+
+#: polls-add.php:171 polls-manager.php:273
+msgid "Poll Multiple Answers"
+msgstr "Опитування з кількома відповідями"
+
+#: polls-add.php:174 polls-manager.php:276
+msgid "Allows Users To Select More Than One Answer?"
+msgstr "Дозволяє користувачам вибирати більше ніж одну відповідь?"
+
+#: polls-add.php:183 polls-manager.php:285
+msgid "Maximum Number Of Selected Answers Allowed?"
+msgstr "Максимальна дозволена кількість вибраних відповідей?"
+
+#: polls-logs.php:114
+msgid "Poll's Logs"
+msgstr "Журнали опитувань"
+
+#: polls-logs.php:134
+msgid "Display All Users That Voted For"
+msgstr "Показати всіх користувачів, що проголосували \"ЗА\""
+
+#: polls-logs.php:266
+msgid "This default filter is limited to display only <strong>%s</strong> records."
+msgstr "Цей фільтр за умовчанням обмежено відображенням лише записів <strong>%s</strong>."
+
+#: polls-add.php:108
+msgid "Poll's Answer is empty."
+msgstr "Відповідь на опитування порожня."
+
+#: polls-add.php:126
+msgid "Poll Question is empty."
+msgstr "Питання опитування порожнє."
