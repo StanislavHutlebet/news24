@@ -977,27 +977,32 @@ body.single header > .entry-title {
 }*/
 /**/
 .wp-block-search__inside-wrapper {
-	width: 230px;
+	max-width: 230px;
 	background: white;
 	border: 1px solid #1f1993;
 	border-radius: 10px;
 	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
 }
 .wp-block-search__input {
 	border: 0;
 	border-radius: 10px;
 	background: white;
-	width: 100%;
+	width: 60%;
+	outline: none;
 	position: relative;
+}
+.wp-block-search__input:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
 }
 .wp-block-search__button {
 	font-size: 0;
 	background: white;
 	border: 0;
 	border-radius: 10px;
-	right: 35px;
-	position: absolute;
-	margin-top: 1px;
+	padding-bottom: 5px;
 }
 .wp-block-search__button:before {
     content: url(./images/search.svg);
@@ -1034,7 +1039,7 @@ body .custom-background {
 .wp-polls-form .wp-polls-ans .wp-polls-ul li:nth-last-child(1) {
 	border-bottom-right-radius: 10px;
 	border-bottom-left-radius: 10px;
-	border-bottom: 0!important;
+	border: 1px solid gray;
 }
 .wp-polls-form .wp-polls-ans .wp-polls-ul li label {
 	margin-left: 10px;
@@ -1043,12 +1048,14 @@ body .custom-background {
 	text-align: center !important;
 }
 .wp-polls-form .wp-polls-ans p input {
-	width: 70px;
 	height: 35px;
 	color: white;
 	background: black;
-	border-radius: 10px;
 	border: 0 !important;
+	margin-top: 20px;
+	font-size: 16px !important;
+	width: 50%;
+	font-family: Roboto-Regular, serif;
 }
 .wp-polls p {
 	text-align: left !important;
@@ -1096,7 +1103,6 @@ body .custom-background {
 @media only screen and (max-width: 900px) {
 	.subscribe {
 		flex-direction: column;
-		margin-bottom: 20px;
 	}
 	.subscribe p {
 		width:100%;
@@ -1114,6 +1120,7 @@ body .custom-background {
 	display: flex;
 	background: #F5F5F5;
 	border-radius: 10px;
+	margin-bottom: 30px;
 }
 .subscribe p {
 	padding-top: 20px;
