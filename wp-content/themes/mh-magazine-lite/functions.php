@@ -91,7 +91,7 @@ $exclude - массив из ID категорий, материалы из ко
   $class = ( !empty( $highlight ) && in_array( $highlight, $tag_ids ) ) ? ' class="important"' : '' ; ?>
  <li<?php echo $class ?>>
 	 <div class="eye">
-		 <div style="float:left;font-size:11.5px;margin-right:5px;margin-top:2.5px"><?php if ($time) { ?><time datetime="<?php the_time('Y-m-d') ?>"><?php echo get_the_time( 'G:i, d.m.Y', $theid ) ?></time><?php } ?></div>
+		 <div style="float:left;font-size:11.5px;margin-right:5px;margin-top:2.5px"><?php if ($time) { ?><time datetime="<?php the_time('d.m') ?>"><?php echo get_the_time( 'G:i, d.m', $theid ) ?></time><?php } ?></div>
 	 <i style="margin-left:5px;font-size:12px !important;" class="fa fa-eye" aria-hidden="true"></i> <?php echo getPostViews(get_the_ID()); ?> </div>
 	 <div class="iconka">
 	<?php if ( has_post_thumbnail()) { ?>

@@ -1148,7 +1148,7 @@ class WPSEO_Replace_Vars {
 			return null;
 		}
 
-		return \get_the_date( 'Y', $this->args->ID );
+		return get_the_date( 'Y', $this->args->ID );
 	}
 
 	/**

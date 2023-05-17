@@ -246,7 +246,7 @@ font-family: 'Roboto-Regular', sans-serif; }
 
 .flexslider { margin: 0; padding: 0; }
 .flexslider .slides > li { display: none; -webkit-backface-visibility: hidden; }
-.flexslider .slides img { display: block; width: 100%; height: 290px !important; object-fit: cover; }
+.flexslider .slides img { display: block; width: 100%; height: 370px !important; object-fit: cover; }
 .flex-pauseplay span { text-transform: capitalize; }
 .slides:after { content: "."; display: block; clear: both; visibility: hidden; line-height: 0; height: 0; }
 html[xmlns] .slides { display: block; }
@@ -812,7 +812,7 @@ div.wpcf7-response-output { margin: 20px 0 15px; }
 
 .eye {color: #979797; /* a97401 */ margin: 3px 0px;}
 
-.wwwwq .mh-widget-title-inner {color:#0f0c44; /* fff */ /*text-shadow: 1px 1px 1px #191476;*/ /* 262626 */ padding-left: 7px;
+.wwwwq .mh-widget-title-inner {color:#0f0c44; /* fff */ /*text-shadow: 1px 1px 1px #191476;*/ /* 262626 */ padding-right: 7px;
 text-transform: none; font-weight: 600; }
 .wwwwq .mh-widget-title {margin-bottom:2px;border-bottom: none;}
 .wwwwq {margin-top:15px}
@@ -841,7 +841,7 @@ article h1 {color:#005aba}
 }
 
 @media only screen and (min-width: 1250px) {
-	.mh-slider-large {height:280px;overflow:hidden} 
+	.mh-slider-large {height:370px;overflow:hidden}
 }
 
 /**/
@@ -913,10 +913,10 @@ article h1 {color:#005aba}
 	flex: 0 0 50%;
 }
 
-.wwwwq > .mh-widget-title, .mh_custom_class_2 {
-	text-transform: none;
-	font-weight: 600;
-}
+/*.wwwwq > .mh-widget-title, .mh_custom_class_2 {*/
+/*	text-transform: none;*/
+/*	font-weight: 600;*/
+/*}*/
 
 body.single header > .entry-title {
 	font-weight: 600;
@@ -963,7 +963,17 @@ body.single header > .entry-title {
 	margin-top: 5px;  /* -10 */
 }
 .mh-sidebar .wp-polls ul.wp-polls-ul > li .pollbar {
-	margin-top: 10px;
+	margin-top: 9px;
+	width: 100%;
+	height: 20px;
+	border-radius: 10px;
+
+}
+.wp-polls-ul li strong i span {
+	float: right;
+	margin-top: 11px !important;
+	font-size: 13px;
+	color: white;
 }
 
 /*@media screen and (min-width: 1141px) {
@@ -1017,11 +1027,11 @@ body .custom-background {
 .wp-polls-ans p a {
 	font-size: 0;
 }
-.wp-polls-ans p a:before {
-	content: "Результати";
-	font-size: 14px;
-	font-family: 'Roboto-Regular', sans-serif;
-}
+/*.wp-polls-ans p a:before {*/
+/*	content: "Результати";*/
+/*	font-size: 14px;*/
+/*	font-family: 'Roboto-Regular', sans-serif;*/
+/*}*/
 .wp-polls-form p {
 	text-align: left !important;
 	margin-bottom: 15px;
@@ -1134,4 +1144,37 @@ body .custom-background {
 }
 .subscribe .icons_link a img {
 	background-image: url("./images/telegram.png");
+}
+
+.mh_custom_class_2:after, .wp-block-search__label:after, .mh-widget-title:after {
+	content: '';
+	background: #0f0c44;
+	display: block;
+	width: 1.65em;
+	height: 0.15em;
+	margin-top: 0.35em;
+	border-radius: 5px;
+}
+.mh_custom_class_2 {
+	font-size: 17px;
+	font-weight: 300;
+}
+.flexslider {
+	border-radius: 10px;
+}
+.flex-active {
+	background: #0f0c44 !important;
+}
+.wp-polls-ul li input {
+	accent-color: #0f0c44;
+}
+.mh-comment-form-title {
+	display: none !important;
+}
+#pbCloseBtn {
+	top: 88px !important;
+}
+
+#pbCloseBtn:before {
+	background: none !important;
 }
